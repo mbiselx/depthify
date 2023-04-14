@@ -434,6 +434,7 @@ class MainWindow(QtWidgets.QMainWindow):
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
     app = QtWidgets.QApplication(sys.argv)
+    app.setApplicationName('Depthify')
 
     with MainWindow() as mw:
         sys.exit(app.exec())
