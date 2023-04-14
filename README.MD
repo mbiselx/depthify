@@ -6,11 +6,11 @@ A few points are manually added, and the rest of the image is interpolated (with
 
 ## Preview
 
-| ![Gui](img\Screenshot.png) |
+| ![Gui](img/Screenshot.png) |
 | --- | 
 | GUI for manually adding points |
 
-| ![original image](img\road_bing-img-creator.jpg) | ![depth overlay](img\road_bing-img-creator_map.jpg) | ![depth overlay](img\road_bing-img-creator_depth.jpg) |
+| ![original image](img/road_bing-img-creator.jpg) | ![depth overlay](img/road_bing-img-creator_map.jpg) | ![depth overlay](img/road_bing-img-creator_depth.jpg) |
 | --- | --- | --- |
 | original image | interpolated depth map, created by user | output (blue channel is grayscaled image, green channel is depth map) |
 
